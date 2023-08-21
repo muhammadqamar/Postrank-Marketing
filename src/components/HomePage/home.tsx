@@ -4,6 +4,7 @@ import HeroSection from "./hero"
 
 import Tranking from "./tranking"
 import HowItWork from "./howItWork"
+import OtherFeatures from "./otherFeatures"
 
 const Home = () => {
   return (
@@ -12,6 +13,8 @@ const Home = () => {
         <div className="max-w-[1200px] mx-auto">
           <HeroSection />
           <HowItWork />
+
+          <OtherFeatures />
         </div>
       </div>
 
