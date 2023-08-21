@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  @apply m-0 p-0  box-border;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  @apply m-0 p-0;
+}
+
+/* typography */
+
+/* heading */
+.h1 {
+  @apply font-medium text-6xl !leading-[78px] tracking-[-1.2px];
+}
+h3 {
+  @apply font-medium text-[38px] leading-[48px] tracking-[-0.72px];
+}
+
+.h4 {
+  @apply text-[32px] leading-[42px] font-medium tracking-[-0.48px];
+}
+.h5 {
+  @apply text-[25px] leading-[32px] font-medium tracking-[-0.48px];
+}
+.h6 {
+  @apply text-[20px] leading-[28px] font-medium tracking-[-0.16px];
+}
+
+/*paragraphs*/
+
+.p-small {
+  @apply text-[12px] leading-[16px] font-normal tracking-[0.1px];
+}
+
+.p-medium {
+  @apply text-[14px] leading-[18px] font-normal;
+}
+
+.p-large {
+  @apply text-[16px] leading-[24px] font-normal tracking-[-0.16px];
+}
+
+/* comman */
+
+.margin-y {
+  @apply mb-[112px] md:mb-[164px];
+}
