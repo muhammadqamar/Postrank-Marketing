@@ -27,7 +27,7 @@ const Tranking = () => {
           icon={
             <img src={GoogleLogo} alt="google logo" className="w-auto h-auto" />
           }
-          className="w-[200px] font-medium text-[14px] !leading-[normal] !tracking-normal text-Blue-400 bg-white border border-solid border-Blue-400  rounded-sm px-2 py-[11px] flex items-center justify-start gap-6 shadow-small-shadow"
+          className="w-[200px] !font-[Roboto] font-medium text-[14px] !leading-[normal] !tracking-normal text-Blue-400 bg-white border border-solid border-Blue-400  rounded-sm px-2 py-[11px] flex items-center justify-start gap-6 shadow-small-shadow"
         />
       </div>
     </div>

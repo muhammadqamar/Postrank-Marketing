@@ -1,81 +1,40 @@
-import React, { MouseEventHandler } from "react"
+import React from "react"
 import { TextTag } from "../Typography"
+import NewProject from "../../assets/images/icons/new-create.svg"
+import AddIcon from "../../assets/images/icons/add.svg"
+import RightIcon from "../../assets/images/icons/forward.svg"
 
-interface IndexProps {
-  icon: React.ReactNode
-  newProjectTitle: string
-  className: string
-  newProjectTitleColor: string
-  newProjectText: string
-  newProjectTextColor: string
-  ArrowIcon: React.ReactNode
-  PlusIcon: React.ReactNode
-  bg: string
-  classNames: string
-  onClick: MouseEventHandler<HTMLImageElement>
-}
-
-const Index: React.FC<IndexProps> = ({
-  icon,
-  newProjectTitle,
-  className,
-  onClick,
-  newProjectTitleColor,
-  newProjectText,
-  newProjectTextColor,
-  ArrowIcon,
-  PlusIcon,
-  classNames,
-}) => {
+const Index = ({ companeyLogo, companeyName, folderNum, AddNewProject }) => {
   return (
-    <div
-      className={`w-full p-4 rounded-2xl bg-White flex justify-between items-center ${classNames}`}
-    >
-      <div className="flex !gap-3 !item-center">
-        {/* {icon && <span className="!w-10 !h-10">{icon}</span>} */}
-        {icon && <img src={icon} alt="icon" className="!w-10 !h-10" />}
-        <div
-          className={`flex flex-col ${
-            PlusIcon ? "justify-center" : "justify-between"
-          }`}
-        >
-          <TextTag
-            as="p"
-            text={newProjectTitle}
-            className={className}
-            color={newProjectTitleColor}
-          />
-          <TextTag
-            as="p"
-            text={newProjectText}
-            className={"p-small"}
-            color={newProjectTextColor}
+    <div className="w-full flex items-center justify-between gap-7 p-4 bg-white rounded-2xl cursor-pointer">
+      <div className="flex items-center gap-3">
+        <div className="w-10 h-10 rounded-full overflow-hidden">
+          <img
+            src={AddNewProject ? NewProject : companeyLogo}
+            alt="icons"
+            className="w-full h-auto object-contain"
           />
         </div>
-      </div>
-      {ArrowIcon ? (
-        // <span className="cursor-pointer" onClick={onClick}>
-        //   {ArrowIcon}
-        // </span>
-        <img
-          src={ArrowIcon}
-          alt="icon"
-          className="cursor-pointer"
-          onClick={onClick}
-        />
-      ) : (
-        PlusIcon && (
-          // <span className="cursor-pointer" onClick={onClick}>
-          //   {PlusIcon}
-          // </span>
-          <img
-            src={PlusIcon}
-            alt="icon"
-            className="cursor-pointer"
-            onClick={onClick}
+        <div className="">
+          <TextTag
+            as="p"
+            text={AddNewProject ? "Add new project" : companeyName}
+            className={"p-medium !font-medium"}
+            color={AddNewProject ? "text-Blue-500" : "text-black"}
           />
-        )
-      )}
+          {!AddNewProject && (
+            <TextTag
+              as="p"
+              text={folderNum}
+              className="p-small"
+              color="text-Gray-700"
+            />
+          )}
+        </div>
+      </div>
+      <div className="">
+        <img src={AddNewProject ? AddIcon : RightIcon} alt="icons" />
+      </div>
     </div>
   )
 }
