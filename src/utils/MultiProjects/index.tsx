@@ -19,7 +19,7 @@ const Index = ({ companeyLogo, companeyName, folderNum, AddNewProject }) => {
           <TextTag
             as="p"
             text={AddNewProject ? "Add new project" : companeyName}
-            className={"p-medium !font-medium"}
+            className={"p-medium !font-medium mb-[2px]"}
             color={AddNewProject ? "text-Blue-500" : "text-black"}
           />
           {!AddNewProject && (

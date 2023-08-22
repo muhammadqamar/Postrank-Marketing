@@ -1,15 +1,20 @@
 import React from "react"
 import { TextTag } from "../../utils/Typography"
 import Trading from "../../utils/Trading"
+import Card from "../../utils/Card"
+
 import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg"
 
 const ComparePost = () => {
   return (
     <div className="w-full margin-y flex justify-between items-center gap-[126px]">
       <div>
+        <Card />
         <div className="flex justify-between items-start gap-5">
+          {/* card */}
+
           <Trading
-            className={"common-bg-color md:p-4 p-3 min-w-[230px]"}
+            className={"bg-Blue-50 md:p-4 p-3 min-w-[230px]"}
             trendLabel={"New users"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -20,6 +25,17 @@ const ComparePost = () => {
             IncreaseIcon={IncreaseIcon}
           />
         </div>
+        <Trading
+          className={"bg-Blue-50 md:p-4 p-3 min-w-[230px]"}
+          trendLabel={"Average time on page"}
+          trendLabelColor={"text-Grey-700"}
+          trendNumbersColor={"text-Black"}
+          trendNumbers={"2m 47s"}
+          trendMarkup={"12.5%"}
+          trendMarkupColor={"text-Green-500"}
+          increaseIconStyle={"text-Blue-200"}
+          IncreaseIcon={IncreaseIcon}
+        />
       </div>
       <div className="max-w-[486px]">
         <TextTag
