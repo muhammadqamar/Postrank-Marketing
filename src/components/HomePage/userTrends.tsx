@@ -21,7 +21,7 @@ const UserTrends = () => {
           color={"text-Grey-700"}
         />
       </div>
-      <div className="w-full p-8 rounded-[20px] common-bg-color">
+      <div className="w-full p-8 rounded-[20px] bg-Blue-50">
         <div className="flex justify-between items-center mb-4">
           <TextTag
             as="h5"

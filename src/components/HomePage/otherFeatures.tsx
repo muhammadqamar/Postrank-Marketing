@@ -24,7 +24,7 @@ const OtherFeatures = () => {
         className="h3 mb-10 md:mb-16 text-center"
       />
 
-      <div className="w-full flex items-center gap-6 justify-between ">
+      <div className="w-full flex items-center sm:flex-nowrap flex-wrap gap-6 justify-between ">
         {/* <div className="w-full">
           <div className="w-full flex items-center justify-center flex-wrap gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
             <MultiProjects
@@ -57,7 +57,7 @@ const OtherFeatures = () => {
           </div>
         </div> */}
         <div className="w-full mb-8 flex justify-between gap-6">
-          <div className="flex items-center flex-wrap gap-2 pt-11 px-10 pb-10 common-bg-color rounded-[25px]">
+          <div className="flex items-center flex-wrap gap-2 pt-11 px-10 pb-10 bg-Blue-50 rounded-[25px]">
             <MultiProjects
               classNames="max-w-full lg:max-w-[252px] w-full p-4 rounded-2xl"
               className="text-black text-sm font-medium"
@@ -137,7 +137,7 @@ const OtherFeatures = () => {
               onClick={() => {}}
             />
           </div>
-          <div className="w-full py-[72px] px-[54px] common-bg-color rounded-[25px]">
+          <div className="w-full py-[72px] px-[54px] bg-Blue-50 rounded-[25px]">
             <div className="p-5 bg-white rounded-[20px]">
               <TextTag
                 as="p"
@@ -147,7 +147,7 @@ const OtherFeatures = () => {
               />
               {/* tag names */}
               <div className="flex flex-wrap gap-2">
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Digital Nomad"}
@@ -158,7 +158,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Visa"}
@@ -169,7 +169,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Country"}
@@ -180,7 +180,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"List"}
@@ -191,7 +191,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Popular"}
@@ -202,7 +202,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Essentials"}
@@ -213,7 +213,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Travel"}
@@ -224,7 +224,7 @@ const OtherFeatures = () => {
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <div className="flex items-center gap-[6px] py-[7px] px-[10px] common-bg-color rounded-md w-fit">
+                <div className="flex items-center gap-[6px] py-[7px] px-[10px] bg-Blue-50 rounded-md w-fit">
                   <TextTag
                     as="p"
                     text={"Explore"}

@@ -42,7 +42,7 @@ const Index: React.FC<IndexProps> = ({
           className={"h4 !font-bold"}
           color={trendNumbersColor}
         />
-        <div className="flex gap-1">
+        <div className="flex gap-1 items-center">
           <img src={IncreaseIcon} alt="" className={increaseIconStyle} />
           <TextTag
             as="p"
