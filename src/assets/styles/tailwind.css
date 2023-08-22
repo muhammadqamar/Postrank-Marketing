@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
-/* @import "tailwindcss/base";
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities"; */
+@import "tailwindcss/utilities";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,6 +24,9 @@ span {
 /* heading */
 .h1 {
   @apply font-medium text-6xl !leading-[78px] tracking-[-1.2px];
+}
+.h3 {
+  @apply font-medium text-[38px] leading-[48px] tracking-[-0.72px];
 }
 .h3 {
   @apply text-[38px] leading-[48px] font-medium tracking-[-0.48px];

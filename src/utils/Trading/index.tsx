@@ -1,18 +1,7 @@
 import React from "react"
 import { TextTag } from "../Typography"
 
-interface IndexProps {
-  className: string
-  trendLabel: string
-  trendLabelColor: string
-  trendNumbersColor: string
-  IncreaseIcon: React.ReactNode
-  increaseIconStyle: string
-  trendNumbers: string
-  trendMarkup: string
-  trendMarkupColor: string
-}
-const Index: React.FC<IndexProps> = ({
+const Index = ({
   className,
   trendLabel,
   trendLabelColor,
