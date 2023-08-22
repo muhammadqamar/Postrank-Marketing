@@ -25,6 +25,22 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    // In your gatsby-config.js
+
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-NZFWS39C",
+
+        includeInDevelopment: false,
+
+        // Defaults to null
+        defaultDataLayer: { platform: "gatsby" },
+
+        enableWebVitalsTracking: true,
+      },
+    },
+
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
