@@ -15,9 +15,11 @@ const ComparePost = () => {
       <div className="flex relative">
         <div className="flex flex-col gap-5">
           <Card
+            className=""
             backgroundImage={GirlImg}
             trendIcon={TrophyIcon}
             ranking={"1"}
+            position=""
             title={
               "How To Stay Productive During The Day - My Step-By-Step Guide "
             }
@@ -50,9 +52,11 @@ const ComparePost = () => {
             IncreaseIcon={IncreaseIcon}
           />
           <Card
+            className="relative before:absolute before:left-[-26px] before:max-w-[208px] before:w-full before:min-h-[368px] before:bg-black before:opacity-[0.34] before:blur-[32px]"
             backgroundImage={CameraImg}
             trendIcon={TrendIcon}
             ranking={"2"}
+            position="relative z-[1]"
             title={
               "Choose The Best Camera In 2023 - Complete Checklist For Seow"
             }
