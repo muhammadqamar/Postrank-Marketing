@@ -28,12 +28,14 @@ function Seo({ description, title, children }) {
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={metaDescription} />
+      <title>
+        {defaultTitle ? `${"Postrank"} | ${"Marketing website"}` : title}
+      </title>
+      <meta name="description" content={"Marketing website"} />
+      <meta property="og:title" content={"Postrank"} />
+      <meta property="og:description" content={"Marketing website"} />
       <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
