@@ -19,7 +19,7 @@ const IndexPage: React.FC<PageProps<DataProps>> = () => (
 )
 
 export const Head: HeadFC<DataProps> = () => (
-  <Seo title="Using TypeScript" description={undefined} children={undefined} />
+  <Seo title="Postrank" description={"gatsyby"} children={undefined} />
 )
 
 export default IndexPage
