@@ -20,15 +20,17 @@ const Index = ({
         <TextTag
           as="p"
           text={trendLabel}
-          className={"p-small"}
+          className={"p-small max-sm:text-[6.673px] max-sm:leading-[8.898px]"}
           color={trendLabelColor}
         />
       </div>
-      <div className="flex gap-4 items-center">
+      <div className="flex sm:gap-4 gap-[8.9px] items-center">
         <TextTag
           as="h4"
           text={trendNumbers}
-          className={"h4 !font-bold"}
+          className={
+            "h4 !font-bold max-sm:text-[17.796px] max-sm:leading-[23.357px]"
+          }
           color={trendNumbersColor}
         />
         <div className="flex gap-1 items-center">

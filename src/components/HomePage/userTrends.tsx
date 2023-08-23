@@ -11,7 +11,7 @@ const UserTrends = () => {
         <TextTag
           as="h3"
           text={"Cut through the noise"}
-          className={"h3 mb-4"}
+          className={"h3 mb-4 max-sm:leading-[42px]"}
           color={"text-Black"}
         />
         <TextTag
@@ -21,18 +21,18 @@ const UserTrends = () => {
           color={"text-Grey-700"}
         />
       </div>
-      <div className="w-full p-8 rounded-[20px] bg-Blue-50">
+      <div className="w-full sm:p-8 p-[17.8px] rounded-[20px] bg-Blue-50">
         <div className="flex justify-between items-center mb-4">
           <TextTag
             as="h5"
             text={"User trends"}
-            className={"h5"}
+            className={"h5 max-sm:text-[13.9px] max-sm:leading-[17.796px]"}
             color={"text-Black"}
           />
           <TextTag
             as="p"
             text={"30 days"}
-            className={"p-medium"}
+            className={"sm:p-medium p-xxsmall max-sm:font-medium"}
             color={"text-Black"}
           />
         </div>

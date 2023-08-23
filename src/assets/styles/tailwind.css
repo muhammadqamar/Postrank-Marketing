@@ -26,7 +26,7 @@ span {
   @apply font-medium text-6xl !leading-[78px] tracking-[-1.2px];
 }
 .h2 {
-  @apply font-medium text-[42px] leading-[56px] font-normal tracking-[-0.72px];
+  @apply font-medium text-[42px] leading-[56px] tracking-[-0.72px];
 }
 .h3 {
   @apply font-medium text-[38px] leading-[48px] tracking-[-0.72px];

@@ -11,7 +11,7 @@ import TrophyIcon from "../../assets/images/icons/trophyIcon.svg"
 
 const ComparePost = () => {
   return (
-    <div className="w-full margin-y flex !xl:flex-nowrap flex-wrap justify-between items-center gap-[126px]">
+    <div className="w-full margin-y flex !xl:flex-nowrap flex-wrap justify-between items-center sm:gap-[126px] gap-[41.9px]">
       <div className="flex relative">
         <div className="flex flex-col gap-5">
           <Card
@@ -28,7 +28,7 @@ const ComparePost = () => {
             increaseIcon={IncreaseIcon}
           />
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 sm:max-w-[234px] w-[130px]"}
+            className={"bg-Blue-50 md:p-4 p-3 sm:!max-w-[234px] max-w-[130px]"}
             trendLabel={"Average time on page"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -41,7 +41,7 @@ const ComparePost = () => {
         </div>
         <div className="flex flex-col items-end gap-5 !z-1 absolute left-[254px]">
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 sm:max-w-[234px] w-[130px]"}
+            className={"bg-Blue-50 md:p-4 p-3 sm:!max-w-[234px] max-w-[130px]"}
             trendLabel={"New users"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -70,7 +70,7 @@ const ComparePost = () => {
         <TextTag
           as="h3"
           text={"Compare posts"}
-          className={"h3 mb-4"}
+          className={"h3 mb-4 max-sm:leading-[42px]"}
           color={"text-Black"}
         />
         <TextTag
