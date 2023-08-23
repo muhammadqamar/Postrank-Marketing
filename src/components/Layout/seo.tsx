@@ -23,14 +23,14 @@ function Seo({ description, title, children }) {
     `
   )
 
-  const metaDescription = "Marketing website" || site.siteMetadata.description
+  const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
 
   return (
     <>
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : "Postrank"}</title>
-      <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
+      <meta name="description" content={"Marketing website"} />
+      <meta property="og:title" content={"Postrank"} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
