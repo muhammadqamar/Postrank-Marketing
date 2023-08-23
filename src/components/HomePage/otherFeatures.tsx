@@ -3,6 +3,7 @@ import { TextTag } from "../../utils/Typography"
 import MultiProjects from "../../utils/MultiProjects"
 
 import Category from "../../assets/images/icons/Category.svg"
+import Label from "../../assets/images/icons/labelIcon.svg"
 import CitizenIcon from "../../assets/images/icons/citizenRemoteIcon.svg"
 import WhaleIncIcon from "../../assets/images/icons/whaleIncIcon.svg"
 import TeslaIcon from "../../assets/images/icons/teslaIcon.svg"
@@ -191,7 +192,7 @@ const OtherFeatures = () => {
           <div className="flex items-center gap-6">
             <div className="w-[88px] h-auto  flex items-center justify-between border border-solid border-Blue-500 px-[30px]  py-[14px] rounded-full">
               <img
-                src={Category}
+                src={Label}
                 alt="Category"
                 className="w-auto h-auto object-contain"
               />
