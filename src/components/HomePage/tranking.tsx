@@ -5,7 +5,7 @@ import GoogleLogo from "../../assets/images/icons/google-logo.svg"
 
 const Tranking = () => {
   return (
-    <div className="w-full">
+    <div className="w-full mt-0 md:mt-[164px]">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center rounded-[25px]  px-6 py-[56px] md:py-[64px] bg-Blue-500">
         <TextTag
           as="h3"

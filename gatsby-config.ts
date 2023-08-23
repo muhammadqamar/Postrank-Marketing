@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Postrank`,
+    description: `Marketing website`,
+    author: `@postrank-marketing`,
+    siteUrl: `https://postrank-marketing.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -45,9 +45,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
+        name: `Postrank`,
+        short_name: `Postrank`,
+        start_url: `https://postrank-marketing.netlify.app`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
