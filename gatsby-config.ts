@@ -45,8 +45,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Home`,
-        short_name: `Home`,
+        name: `Postrank`,
+        short_name: `Postrank`,
         start_url: `https://postrank-marketing.netlify.app`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
