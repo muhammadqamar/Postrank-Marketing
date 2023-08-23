@@ -9,16 +9,16 @@ const hero = () => {
   return (
     <div className="w-full mt-14 md:mt-16 mb-[112] md:mb-[164px] ">
       <div className=" w-full text-center">
-        <h1 className="h1 italic mb-3 md:mb-4 text-Black">
-          Analyze Your Content <span className="!font-normal">Visually</span>
+        <h1 className="sm:h1 h2 sm:italic mb-3 md:mb-4 text-Black">
+          Analyze Your Content{" "}
+          <span className="!font-normal max-sm:italic">Visually</span>
         </h1>
         <TextTag
           as="p"
           color="text-Grey-700"
           text="Postrank connects with your Google Analytics and shows you how your content stacks up against each other."
-          className="w-[441px] p-large mb-8 mx-auto"
+          className="sm:w-[441px] w-[250px] p-large mb-8 mx-auto"
         />
-
         <Button
           type="button"
           disabled={false}

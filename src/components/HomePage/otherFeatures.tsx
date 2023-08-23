@@ -23,26 +23,50 @@ const OtherFeatures = () => {
         className="h3 mb-10 md:mb-16 text-center"
       />
 
-      <div className="w-full flex items-center sm:flex-nowrap flex-wrap gap-6 justify-between ">
+      <div className="w-full flex items-center md:flex-nowrap flex-wrap gap-6 justify-between ">
         <div className="w-full">
-          <div className="w-full flex items-center justify-center flex-wrap gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
+          <div className="w-full flex flex-wrap items-center justify-center flex-wrap gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
             <MultiProjects
               AddNewProject={false}
               companeyLogo={CitizenIcon}
               companeyName={"Citizen Remote"}
               folderNum={"4 folders"}
+              className="w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={WhaleIncIcon}
               companeyName={"WhaleINC"}
               folderNum={"2 folders"}
+              className="w-[249.5px]"
+            />
+            <MultiProjects
+              AddNewProject={false}
+              companeyLogo={TeslaIcon}
+              companeyName={"Tesla"}
+              folderNum={"1 folder"}
+              className="w-[249.5px]"
+            />
+            <MultiProjects
+              AddNewProject={false}
+              companeyLogo={AppleIcon}
+              companeyName={"Apple"}
+              folderNum={"4 folders"}
+              className="w-[249.5px]"
+            />
+            <MultiProjects
+              AddNewProject={false}
+              companeyLogo={MastercardIcon}
+              companeyName={"Mastercard"}
+              folderNum={"6 folders"}
+              className="w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={true}
               companeyLogo={undefined}
               companeyName={undefined}
               folderNum={undefined}
+              className="w-[249.5px]"
             />
           </div>
           <div className="flex items-center gap-6">

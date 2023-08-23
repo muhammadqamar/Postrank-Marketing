@@ -6,7 +6,7 @@ import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg"
 
 const UserTrends = () => {
   return (
-    <div className="w-full margin-y flex justify-between items-center gap-[126px]">
+    <div className="w-full margin-y flex flex-wrap sm:flex-nowrap justify-between items-center gap-[126px]">
       <div className="max-w-[486px]">
         <TextTag
           as="h3"

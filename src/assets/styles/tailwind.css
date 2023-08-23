@@ -25,6 +25,9 @@ span {
 .h1 {
   @apply font-medium text-6xl !leading-[78px] tracking-[-1.2px];
 }
+.h2 {
+  @apply font-medium text-[42px] leading-[56px] font-normal tracking-[-0.72px];
+}
 .h3 {
   @apply font-medium text-[38px] leading-[48px] tracking-[-0.72px];
 }
@@ -42,7 +45,12 @@ span {
 }
 
 /*paragraphs*/
-
+.p-xxsmall {
+  @apply text-[7.786px] leading-[10.01px] font-normal tracking-[0.1px];
+}
+.p-xsmall {
+  @apply text-[8.898px] leading-[11.122px] font-normal tracking-[0.1px];
+}
 .p-small {
   @apply text-[12px] leading-[16px] font-normal tracking-[0.1px];
 }

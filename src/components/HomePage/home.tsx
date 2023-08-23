@@ -18,10 +18,9 @@ const Home = () => {
           <ComparePost />
           <UserTrends />
           <OtherFeatures />
+          <Tranking />
         </div>
       </div>
-
-      <Tranking />
     </>
   )
 }

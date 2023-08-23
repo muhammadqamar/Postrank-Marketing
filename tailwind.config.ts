@@ -10,8 +10,8 @@ module.exports = {
       colors: {
         White: "#FFFFFF",
         Black: "rgba(0, 0, 0, 1)",
+        "Grey-500": "rgba(108, 108, 108, 1)",
         "Grey-700": "rgba(70, 70, 70, 1)",
-
         "Blue-50": "rgba(241, 246, 253, 1)",
         "Blue-100": "rgba(224, 233, 250, 1)",
         "Blue-200": "rgba(189, 207, 244, 1)",
