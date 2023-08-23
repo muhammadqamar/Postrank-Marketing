@@ -31,7 +31,7 @@ function Seo({ description, title, children }) {
       <title>{defaultTitle ? `${title} | ${defaultTitle}` : "Postrank"}</title>
       <meta name="description" content={"Marketing website"} />
       <meta property="og:title" content={"Postrank"} />
-      <meta property="og:description" content={metaDescription} />
+      <meta property="og:description" content={"Marketing website"} />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
