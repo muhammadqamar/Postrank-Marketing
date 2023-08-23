@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Marketing website`,
-    description: `Postrank`,
+    title: `Postrank`,
+    description: `Marketing website`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://postrank-marketing.netlify.app`,
   },
   plugins: [
     `gatsby-plugin-image`,
