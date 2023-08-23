@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Postrank`,
     description: `Marketing website`,
-    author: `@postrank`,
+    author: `@postrank-marketing`,
     siteUrl: `https://postrank-marketing.netlify.app`,
   },
   plugins: [
