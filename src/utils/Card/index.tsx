@@ -7,6 +7,7 @@ import EyeIcon from "../../assets/images/icons/eyeIcon.svg"
 import ContactIcon from "../../assets/images/icons/contactIcon.svg"
 
 interface IndexProps {
+  className: string
   backgroundImage: string
   trendIcon: React.ReactNode
   ranking: string
@@ -17,6 +18,7 @@ interface IndexProps {
 }
 
 const Index: React.FC<IndexProps> = ({
+  className,
   backgroundImage,
   trendIcon,
   ranking,
@@ -34,7 +36,7 @@ const Index: React.FC<IndexProps> = ({
   }
   return (
     <div
-      className="sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between sm:!h-[516px] h-[333px] sm:!max-w-[338px] !max-w-[231px]"
+      className={`sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between sm:!h-[516px] h-[333px] sm:!max-w-[338px] !max-w-[231px]${className}`}
       style={bgImgStyle}
     >
       <div className="flex gap-2 !justify-end !items-center">
@@ -53,7 +55,7 @@ const Index: React.FC<IndexProps> = ({
             />
             {ranking}
           </span>
-          <img src={increaseIcon} alt="increase icon" />
+          <img src={increaseIcon} alt="increase icon" />d
         </div>
       </div>
       <div className="sm:!p-5 p-[11.12px] !bg-White rounded-[20px] sm:!w-[298px] w-[165.72px]">

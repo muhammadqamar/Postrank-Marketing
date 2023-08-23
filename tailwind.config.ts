@@ -28,6 +28,7 @@ module.exports = {
       boxShadow: {
         "small-shadow":
           " 0px 1px 1px 0px rgba(0, 0, 0, 0.17), 0px 0px 1px 0px rgba(0, 0, 0, 0.08)",
+        "medium-shadow": "0px 0px 0px 1px rgba(0, 0, 0, 0.34)",
       },
 
       screens: {

@@ -31,42 +31,42 @@ const OtherFeatures = () => {
               companeyLogo={CitizenIcon}
               companeyName={"Citizen Remote"}
               folderNum={"4 folders"}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={WhaleIncIcon}
               companeyName={"WhaleINC"}
               folderNum={"2 folders"}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={TeslaIcon}
               companeyName={"Tesla"}
               folderNum={"1 folder"}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={AppleIcon}
               companeyName={"Apple"}
               folderNum={"4 folders"}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={MastercardIcon}
               companeyName={"Mastercard"}
               folderNum={"6 folders"}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
             <MultiProjects
               AddNewProject={true}
               companeyLogo={undefined}
               companeyName={undefined}
               folderNum={undefined}
-              className="w-[249.5px]"
+              className="!w-[249.5px]"
             />
           </div>
           <div className="flex items-center gap-6">
