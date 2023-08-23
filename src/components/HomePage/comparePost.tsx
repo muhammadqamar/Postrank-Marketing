@@ -11,9 +11,9 @@ import TrophyIcon from "../../assets/images/icons/trophyIcon.svg"
 
 const ComparePost = () => {
   return (
-    <div className="w-full margin-y flex !xl:flex-nowrap flex-wrap justify-between items-center sm:gap-[126px] gap-[41.9px]">
-      <div className="flex relative">
-        <div className="flex flex-col gap-5">
+    <div className="w-full margin-y flex lg:flex-nowrap gap-[41px] md:gap-[120px] xl:gap-0 flex-wrap justify-between items-center">
+      <div className="flex relative max-w-[590px] w-full">
+        <div className="flex flex-col gap-5 w-full md:w-auto">
           <Card
             className=""
             backgroundImage={GirlImg}
@@ -28,7 +28,9 @@ const ComparePost = () => {
             increaseIcon={IncreaseIcon}
           />
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 sm:!max-w-[234px] max-w-[130px]"}
+            className={
+              "bg-Blue-50 md:p-4 p-3 md:!max-w-[234px] sm:max-w-[160px] xsm:max-w-[130px] max-w-[110px]"
+            }
             trendLabel={"Average time on page"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -39,9 +41,11 @@ const ComparePost = () => {
             IncreaseIcon={IncreaseIcon}
           />
         </div>
-        <div className="flex flex-col items-end gap-5 !z-1 absolute left-[254px]">
+        <div className="flex flex-col items-end gap-5 !z-1 absolute left-[100px] xsm:left-[150px] sm:left-[160px] md:left-[254px]">
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 sm:!max-w-[234px] max-w-[130px]"}
+            className={
+              "bg-Blue-50 md:p-4 p-3 md:!max-w-[234px] sm:max-w-[160px] xsm:max-w-[130px] max-w-[110px]"
+            }
             trendLabel={"New users"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -52,11 +56,11 @@ const ComparePost = () => {
             IncreaseIcon={IncreaseIcon}
           />
           <Card
-            className="relative before:absolute before:left-[-26px] before:max-w-[208px] before:w-full before:min-h-[368px] before:bg-black before:opacity-[0.34] before:blur-[32px]"
+            className="relative !w-[185px] md:!w-[372px] !h-[300px] before:absolute before:left-[-26px] before:max-w-[208px] before:w-full before:min-h-[200px] md:before:min-h-[368px] before:bg-black before:opacity-[0.34] before:blur-[32px]"
             backgroundImage={CameraImg}
             trendIcon={TrendIcon}
             ranking={"2"}
-            position="relative z-[1]"
+            position="relative z-[1] w-[165px]"
             title={
               "Choose The Best Camera In 2023 - Complete Checklist For Seow"
             }
@@ -66,11 +70,13 @@ const ComparePost = () => {
           />
         </div>
       </div>
-      <div className="max-w-[486px]">
+      <div className="max-w-full lg:max-w-[486px]">
         <TextTag
           as="h3"
           text={"Compare posts"}
-          className={"h3 mb-4 max-sm:leading-[42px]"}
+          className={
+            "font-medium md:text-[38px] md:leading-[48px] md:tracking-[-0.72px] text-[32px] tracking-[-0.48px] mb-4 leading-[42px]"
+          }
           color={"text-Black"}
         />
         <TextTag

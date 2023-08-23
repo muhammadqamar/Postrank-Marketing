@@ -6,12 +6,14 @@ import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg"
 
 const UserTrends = () => {
   return (
-    <div className="w-full margin-y flex flex-wrap sm:flex-nowrap justify-between items-center gap-[126px]">
-      <div className="max-w-[486px]">
+    <div className="w-full margin-y flex flex-wrap lg:flex-nowrap justify-between flex-col-reverse lg:flex-row items-start lg:items-center gap-[40px] lg:gap-0">
+      <div className="max-w-full lg:max-w-[486px]">
         <TextTag
           as="h3"
           text={"Cut through the noise"}
-          className={"h3 mb-4 max-sm:leading-[42px]"}
+          className={
+            "font-medium md:text-[38px] md:leading-[48px] md:tracking-[-0.72px] text-[32px] tracking-[-0.48px] mb-4 leading-[42px]"
+          }
           color={"text-Black"}
         />
         <TextTag
@@ -21,7 +23,7 @@ const UserTrends = () => {
           color={"text-Grey-700"}
         />
       </div>
-      <div className="w-full sm:p-8 p-[17.8px] rounded-[20px] bg-Blue-50">
+      <div className="max-w-full lg:max-w-[524px] w-full sm:p-8 p-[17.8px] rounded-[20px] bg-Blue-50">
         <div className="flex justify-between items-center mb-4">
           <TextTag
             as="h5"

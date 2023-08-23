@@ -38,7 +38,7 @@ const Index: React.FC<IndexProps> = ({
   }
   return (
     <div
-      className={`sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between sm:!h-[516px] h-[333px] sm:!max-w-[338px] !max-w-[231px]${className}`}
+      className={`sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between md:!h-[516px] h-[333px] md:!max-w-[338px] !max-w-[185px]${className}`}
       style={bgImgStyle}
     >
       <div className="flex gap-2 !justify-end !items-center">
@@ -61,12 +61,14 @@ const Index: React.FC<IndexProps> = ({
         </div>
       </div>
       <div
-        className={`sm:!p-5 p-[11.12px] !bg-White rounded-[20px] sm:!w-[298px] w-[165.72px]${position}`}
+        className={`md:!p-5 p-[11.12px] !bg-White rounded-[20px] md:!w-[298px] w-[187px]${position}`}
       >
         <TextTag
           as="p"
           text={title}
-          className={"sm:!mb-5 mb-[11.12px] sm:!p-large !p-xsmall font-medium"}
+          className={
+            "sm:!mb-5 mb-[11.12px] md:text-[16px] md:leading-[24px] md:font-normal md:tracking-[-0.16px] text-[8px] leading-[11px] tracking-[-0.089px] font-medium"
+          }
           color={""}
         />
         <div className="flex gap-2 items-center">
@@ -75,7 +77,9 @@ const Index: React.FC<IndexProps> = ({
             <TextTag
               as="p"
               text={views}
-              className={"sm:p-medium !p-xxsmall"}
+              className={
+                "sm:text-[14px] sm:leading-[18px] font-normal text-[7px] leading-[10px]"
+              }
               color={"text-Grey-700"}
             />
           </div>
@@ -85,7 +89,9 @@ const Index: React.FC<IndexProps> = ({
             <TextTag
               as="p"
               text={contacts}
-              className={"!sm:p-medium !p-xxsmall"}
+              className={
+                "sm:text-[14px] sm:leading-[18px] font-normal text-[7px] leading-[10px]"
+              }
               color={"text-Grey-700"}
             />
           </div>

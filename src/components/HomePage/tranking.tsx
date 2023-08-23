@@ -6,18 +6,18 @@ import GoogleLogo from "../../assets/images/icons/google-logo.svg"
 const Tranking = () => {
   return (
     <div className="w-full">
-      <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-start rounded-[25px]  px-6 py-[56px] md:py-[64px] bg-Blue-500">
+      <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center rounded-[25px]  px-6 py-[56px] md:py-[64px] bg-Blue-500">
         <TextTag
           as="h3"
           text="Ready to start ranking? "
           color="text-white"
-          className="h3 mb-2"
+          className="md:text-[38px] md:leading-[48px] font-medium md:tracking-[-0.72px] text-[32px] leading-[42px] tracking-[-0.48px] mb-2 text-center"
         />
         <TextTag
           as="p"
           text="Just log in! You already have an account!"
           color="text-Blue-100"
-          className="p-large mb-[35px]"
+          className="p-large mb-[35px] text-center"
         />
         <Button
           type="button"

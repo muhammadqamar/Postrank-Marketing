@@ -29,7 +29,7 @@ const Index = ({
           as="h4"
           text={trendNumbers}
           className={
-            "h4 !font-bold max-sm:text-[17.796px] max-sm:leading-[23.357px]"
+            "md:text-[32px] md:leading-[42px] md:tracking-[-0.48px] !font-bold text-[17.796px] leading-[23.357px] tracking-[-0.267px]"
           }
           color={trendNumbersColor}
         />

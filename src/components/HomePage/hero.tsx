@@ -9,7 +9,7 @@ const hero = () => {
   return (
     <div className="w-full mt-14 md:mt-16 mb-[112px] md:mb-[164px] ">
       <div className=" w-full text-center">
-        <h1 className="h1 sm:italic mb-3 md:mb-4 text-Black">
+        <h1 className="font-medium text-[42px] leading-[56px] tracking-[-0.96px] md:font-medium md:text-6xl md:!leading-[78px] md:tracking-[-1.2px] sm:italic mb-3 md:mb-4 text-Black">
           Analyze Your Content{" "}
           <span className="!font-normal max-sm:italic">Visually</span>
         </h1>

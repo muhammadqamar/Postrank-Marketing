@@ -63,7 +63,7 @@ span {
   @apply text-[16px] leading-[24px] font-normal tracking-[-0.16px];
 }
 
-/* comman */
+/* common */
 
 .margin-y {
   @apply mb-[112px] md:mb-[164px];

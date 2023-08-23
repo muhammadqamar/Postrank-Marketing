@@ -13,15 +13,15 @@ import CloseIcon from "../../assets/images/icons/closeIcon.svg"
 
 const OtherFeatures = () => {
   return (
-    <div className="w-full margin-y">
+    <div className="w-full mb-[56px] md:margin-y">
       <TextTag
         as="h3"
         text="Other features"
         color="text-black"
-        className="h3 mb-10 md:mb-16 text-center"
+        className="h3 mb-10 md:mb-16 text-start md:text-center"
       />
 
-      <div className="w-full flex items-center md:flex-nowrap flex-wrap gap-6 justify-between ">
+      <div className="w-full flex items-center xl:flex-nowrap flex-wrap gap-[56px] md:gap-6 justify-between ">
         <div className="w-full">
           <div className="w-full flex flex-wrap items-center justify-center gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
             <MultiProjects
@@ -29,45 +29,45 @@ const OtherFeatures = () => {
               companeyLogo={CitizenIcon}
               companeyName={"Citizen Remote"}
               folderNum={"4 folders"}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={WhaleIncIcon}
               companeyName={"WhaleINC"}
               folderNum={"2 folders"}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={TeslaIcon}
               companeyName={"Tesla"}
               folderNum={"1 folder"}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={AppleIcon}
               companeyName={"Apple"}
               folderNum={"4 folders"}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={MastercardIcon}
               companeyName={"Mastercard"}
               folderNum={"6 folders"}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={true}
               companeyLogo={undefined}
               companeyName={undefined}
               folderNum={undefined}
-              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
+              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-start md:items-center flex-col md:flex-row gap-6">
             <div className="w-[88px] h-auto  flex items-center justify-between border border-solid border-Blue-500 px-[30px]  py-[14px] rounded-full">
               <img
                 src={Category}
@@ -79,7 +79,7 @@ const OtherFeatures = () => {
               as="h6"
               text="Manage multiple projects from one account"
               color="text-black"
-              className="h6 w-full sm:w-[272px]"
+              className="h6 w-full md:w-[272px]"
             />
           </div>
         </div>
@@ -189,7 +189,7 @@ const OtherFeatures = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-start md:items-center flex-col md:flex-row gap-6">
             <div className="w-[88px] h-auto  flex items-center justify-between border border-solid border-Blue-500 px-[30px]  py-[14px] rounded-full">
               <img
                 src={Label}
@@ -199,9 +199,9 @@ const OtherFeatures = () => {
             </div>
             <TextTag
               as="h6"
-              text="Manage multiple projects from one account"
+              text="Add tags to post and categorize them"
               color="text-black"
-              className="h6 w-full sm:w-[272px]"
+              className="h6 w-full md:w-[272px]"
             />
           </div>
         </div>
