@@ -68,3 +68,40 @@ span {
 .margin-y {
   @apply mb-[112px] md:mb-[164px];
 }
+
+/* chart */
+.charts {
+  @apply mt-4 bg-white;
+}
+
+.charts .highcharts-axis-title,
+.highcharts-no-tooltip,
+.highcharts-credits {
+  @apply !hidden;
+}
+.charts,
+.highcharts-root,
+.highcharts-container,
+.highcharts-background {
+  @apply !h-[358px] rounded-2xl;
+}
+.charts .highcharts-container {
+  @apply pt-5 pb-0 pr-5 pl-0;
+}
+.charts .highcharts-xaxis .highcharts-tick {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-xaxis .highcharts-axis-line {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-axis-labels text {
+  fill: #909090 !important;
+
+  @apply font-normal !text-[14px] leading-[18px];
+}
+.charts .highcharts-tracker-line {
+  stroke-width: 2px;
+  stroke: #2f67dd;
+}
