@@ -11,7 +11,7 @@ import TrophyIcon from "../../assets/images/icons/trophyIcon.svg"
 
 const ComparePost = () => {
   return (
-    <div className="w-full margin-y flex lg:flex-nowrap gap-[41px] md:gap-[120px] xl:gap-0 flex-wrap justify-between items-center">
+    <div className="w-full margin-y flex lg:flex-nowrap gap-[41px] md:gap-[120px] flex-wrap items-center">
       <div className="flex relative max-w-[590px] w-full">
         <div className="flex flex-col gap-5 w-full md:w-auto">
           <Card
@@ -82,7 +82,7 @@ const ComparePost = () => {
         <TextTag
           as="p"
           text="Create direct comparisons between posts to see how they stack up against each other."
-          className={"p-large"}
+          className={"p-large sm:w-[352px] xsm:w-[327px]"}
           color={"text-Grey-700"}
         />
       </div>

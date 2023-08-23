@@ -18,7 +18,7 @@ const OtherFeatures = () => {
         as="h3"
         text="Other features"
         color="text-black"
-        className="h3 mb-10 md:mb-16 text-start md:text-center"
+        className="sm:h3 h4 mb-10 md:mb-16 text-start md:text-center"
       />
 
       <div className="w-full flex items-center xl:flex-nowrap flex-wrap gap-[56px] md:gap-6 justify-between ">
@@ -85,7 +85,7 @@ const OtherFeatures = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-full py-[72px] px-[54px] bg-Blue-50 rounded-[25px] mb-8">
+          <div className="w-full md:py-[72px] py-8 md:px-[54px] px-7 bg-Blue-50 rounded-[25px] mb-8">
             <div className="p-5 bg-white rounded-[20px]">
               <TextTag
                 as="p"

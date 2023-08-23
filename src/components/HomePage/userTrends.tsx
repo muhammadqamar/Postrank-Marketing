@@ -19,7 +19,7 @@ const UserTrends = () => {
         <TextTag
           as="p"
           text="Pull in all your Google Analytics & Search Console data and see how specific posts perform over time."
-          className={"p-large"}
+          className={"p-large md:w-[441px] xsm:w-[327px] w-[280px]"}
           color={"text-Grey-700"}
         />
       </div>
