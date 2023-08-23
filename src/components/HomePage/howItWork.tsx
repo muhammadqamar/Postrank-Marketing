@@ -23,7 +23,7 @@ const HowItWork = () => {
         as="h3"
         text="How it works?"
         color="text-black"
-        className="h3 mb-10 md:mb-16 text-center"
+        className="sm:h3 h4 !leading-[48px] mb-10 md:mb-16 sm:text-center text-start"
       />
 
       <div className="w-full flex items-center justify-between gap-8 flex-wrap">
@@ -39,7 +39,9 @@ const HowItWork = () => {
               as="h6"
               text={item.text}
               color="text-black"
-              className={`h6 ${item.id === "1" ? "w-[169px]" : "w-[217px]"}`}
+              className={`h6 ${
+                item.id === "1" ? "w-[169px]" : "sm:w-[217px] w-[177px]"
+              }`}
             />
           </div>
         ))}

@@ -7,7 +7,6 @@ import EyeIcon from "../../assets/images/icons/eyeIcon.svg"
 import ContactIcon from "../../assets/images/icons/contactIcon.svg"
 
 interface IndexProps {
-  className: string
   backgroundImage: string
   trendIcon: React.ReactNode
   ranking: string
@@ -18,7 +17,6 @@ interface IndexProps {
 }
 
 const Index: React.FC<IndexProps> = ({
-  className,
   backgroundImage,
   trendIcon,
   ranking,
@@ -31,12 +29,12 @@ const Index: React.FC<IndexProps> = ({
     backgroundImage: `url(${backgroundImage})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "242px",
+    // height: "242px",
     borderRadius: "25px",
   }
   return (
     <div
-      className={`sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between sm:!h-[516px] h-[333px] sm:!max-w-[338px] !max-w-[231px]${className}`}
+      className="sm:p-5 px-[11.12px] py-[10.13px] flex flex-col justify-between sm:!h-[516px] h-[333px] sm:!max-w-[338px] !max-w-[231px]"
       style={bgImgStyle}
     >
       <div className="flex gap-2 !justify-end !items-center">
@@ -46,7 +44,7 @@ const Index: React.FC<IndexProps> = ({
           className="bg-white rounded-full p-[7px]"
         />
         <div className="flex items-center gap-1 px-2 py-[7px] bg-white rounded-2xl h-8 cursor-pointer">
-          <span className="flex text-Black">
+          <span className="flex items-center text-Black">
             <TextTag
               as="p"
               text={"#"}
@@ -55,7 +53,7 @@ const Index: React.FC<IndexProps> = ({
             />
             {ranking}
           </span>
-          <img src={increaseIcon} alt="increase icon" />d
+          <img src={increaseIcon} alt="increase icon" />
         </div>
       </div>
       <div className="sm:!p-5 p-[11.12px] !bg-White rounded-[20px] sm:!w-[298px] w-[165.72px]">

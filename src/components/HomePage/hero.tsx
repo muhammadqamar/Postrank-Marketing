@@ -7,7 +7,7 @@ import BroserImage from "../../assets/images/Browser.png"
 
 const hero = () => {
   return (
-    <div className="w-full mt-14 md:mt-16 mb-[112] md:mb-[164px] ">
+    <div className="w-full mt-14 md:mt-16 mb-[112px] md:mb-[164px] ">
       <div className=" w-full text-center">
         <h1 className="sm:h1 h2 sm:italic mb-3 md:mb-4 text-Black">
           Analyze Your Content{" "}
@@ -27,7 +27,7 @@ const hero = () => {
           icon={
             <img src={GoogleLogo} alt="google logo" className="w-auto h-auto" />
           }
-          className="!min-w-[200px] !font-[Roboto] mx-auto mb-[35px] md:mb-[67px] font-medium text-[14px] !leading-[normal] !tracking-normal text-Blue-400 border border-solid border-Blue-400  rounded-sm px-2 py-[11px] flex items-center justify-start gap-6 shadow-small-shadow"
+          className="!min-w-[200px] !font-[Roboto] mx-auto mb-[32px] md:mb-[67px] font-medium text-[14px] !leading-[normal] !tracking-normal text-Blue-400 border border-solid border-Blue-400  rounded-sm px-2 py-[11px] flex items-center justify-start gap-6 shadow-small-shadow"
         />
       </div>
 

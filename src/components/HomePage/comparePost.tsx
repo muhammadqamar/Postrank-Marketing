@@ -24,10 +24,9 @@ const ComparePost = () => {
             views={"2,168"}
             contacts={"1,352"}
             increaseIcon={IncreaseIcon}
-            className={""}
           />
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 max-w-[234px]"}
+            className={"bg-Blue-50 md:p-4 p-3 sm:max-w-[234px] w-[130px]"}
             trendLabel={"Average time on page"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -40,7 +39,7 @@ const ComparePost = () => {
         </div>
         <div className="flex flex-col items-end gap-5 !z-1 absolute left-[254px]">
           <Trading
-            className={"bg-Blue-50 md:p-4 p-3 max-w-[234px]"}
+            className={"bg-Blue-50 md:p-4 p-3 sm:max-w-[234px] w-[130px]"}
             trendLabel={"New users"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
@@ -60,9 +59,7 @@ const ComparePost = () => {
             views={"1,819"}
             contacts={"988"}
             increaseIcon={IncreaseIcon}
-            className={"relative"}
           />
-          <div className="before:left-[-20px] before:shadow-medium-shadow before:absolute before:!w-[208px] h-[407px]"></div>
         </div>
       </div>
       <div className="max-w-[486px]">
