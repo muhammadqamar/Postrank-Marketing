@@ -33,7 +33,7 @@ const UserTrends = () => {
             as="p"
             text={"30 days"}
             className={"sm:p-medium p-xxsmall max-sm:font-medium"}
-            color={"text-Black"}
+            color={"text-[#6C6C6C]"}
           />
         </div>
         <div className="flex justify-between gap-4 items-center">
