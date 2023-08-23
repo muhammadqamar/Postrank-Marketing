@@ -2,15 +2,12 @@ import React from "react"
 import { TextTag } from "../../utils/Typography"
 import MultiProjects from "../../utils/MultiProjects"
 
-import Tags from "../../assets/images/icons/tags.svg"
 import Category from "../../assets/images/icons/Category.svg"
 import CitizenIcon from "../../assets/images/icons/citizenRemoteIcon.svg"
 import WhaleIncIcon from "../../assets/images/icons/whaleIncIcon.svg"
 import TeslaIcon from "../../assets/images/icons/teslaIcon.svg"
 import AppleIcon from "../../assets/images/icons/appleIcon.svg"
 import MastercardIcon from "../../assets/images/icons/masterCardIcon.svg"
-import AddNewProjectIcon from "../../assets/images/icons/addNewProjectIcon.svg"
-import AddIcon from "../../assets/images/icons/addIcon.svg"
 import CloseIcon from "../../assets/images/icons/closeIcon.svg"
 
 const OtherFeatures = () => {
@@ -25,48 +22,48 @@ const OtherFeatures = () => {
 
       <div className="w-full flex items-center md:flex-nowrap flex-wrap gap-6 justify-between ">
         <div className="w-full">
-          <div className="w-full flex flex-wrap items-center justify-center flex-wrap gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
+          <div className="w-full flex flex-wrap items-center justify-center gap-2 py-11 px-[35px] md:px-10 rounded-[25px] bg-Blue-50 mb-8">
             <MultiProjects
               AddNewProject={false}
               companeyLogo={CitizenIcon}
               companeyName={"Citizen Remote"}
               folderNum={"4 folders"}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={WhaleIncIcon}
               companeyName={"WhaleINC"}
               folderNum={"2 folders"}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={TeslaIcon}
               companeyName={"Tesla"}
               folderNum={"1 folder"}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={AppleIcon}
               companeyName={"Apple"}
               folderNum={"4 folders"}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={MastercardIcon}
               companeyName={"Mastercard"}
               folderNum={"6 folders"}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
             <MultiProjects
               AddNewProject={true}
               companeyLogo={undefined}
               companeyName={undefined}
               folderNum={undefined}
-              className="w-[249.5px]"
+              className="!w-full xl:!w-[249px] flex-wrap md:flex-nowrap"
             />
           </div>
           <div className="flex items-center gap-6">
