@@ -29,42 +29,36 @@ const OtherFeatures = () => {
               companeyLogo={CitizenIcon}
               companeyName={"Citizen Remote"}
               folderNum={"4 folders"}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={WhaleIncIcon}
               companeyName={"WhaleINC"}
               folderNum={"2 folders"}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={TeslaIcon}
               companeyName={"Tesla"}
               folderNum={"1 folder"}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={AppleIcon}
               companeyName={"Apple"}
               folderNum={"4 folders"}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={false}
               companeyLogo={MastercardIcon}
               companeyName={"Mastercard"}
               folderNum={"6 folders"}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
             <MultiProjects
               AddNewProject={true}
               companeyLogo={undefined}
               companeyName={undefined}
               folderNum={undefined}
-              className="!w-full xl:!w-[249px]  flex-nowrap"
             />
           </div>
           <div className="flex items-start md:items-center flex-col md:flex-row gap-6">
@@ -85,7 +79,7 @@ const OtherFeatures = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-full md:py-[72px] py-8 md:px-[54px] px-7 bg-Blue-50 rounded-[25px] mb-8">
+          <div className="w-full py-[32px] sm:py-[72px] px-[29px] sm:px-[54px] bg-Blue-50 rounded-[25px] mb-8">
             <div className="p-5 bg-white rounded-[20px]">
               <TextTag
                 as="p"
