@@ -1,14 +1,16 @@
 /**
  * SEO component that queries for data with
- * Gatsby's useStaticQuery React hook
+ *  Gatsby's useStaticQuery React hook
  *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import * as React from "react"
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, title, children }) {
+function Seo({ description, lang, meta, title, type, url, imageUrl, keyword }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -17,6 +19,7 @@ function Seo({ description, title, children }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -24,24 +27,88 @@ function Seo({ description, title, children }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const ogType = type || `website`
+  const imagePath =
+    (imageUrl && `https://postrank-marketing.netlify.app${imageUrl}`) || ``
+  const metaUrl = url && {
+    property: `og:url`,
+    content: `${site.siteMetadata.siteUrl}${url}`,
+  }
 
   return (
-    <>
-      <title>
-        {defaultTitle ? `${"Postrank"} | ${"Marketing website"}` : title}
-      </title>
-      <meta name="description" content={"Marketing website"} />
-      <meta property="og:title" content={"Postrank"} />
-      <meta property="og:description" content={"Marketing website"} />
-      <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="" />
-      <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
-      {children}
-    </>
+    <Helmet
+      htmlAttributes={{
+        lang,
+      }}
+      title={"Postrank"}
+      titleTemplate={`%s | ${"Marketing website"}`}
+      meta={[
+        {
+          name: `keyword`,
+          content: keyword,
+        },
+        {
+          name: `description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:image`,
+          content: imagePath,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: ogType,
+        },
+        {
+          ...metaUrl,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          property: `twitter:image`,
+          content: imagePath,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+      ].concat(meta)}
+    />
   )
+}
+
+Seo.defaultProps = {
+  lang: `en`,
+  meta: [],
+  description: ``,
+}
+
+Seo.propTypes = {
+  description: PropTypes.string,
+  lang: PropTypes.string,
+  meta: PropTypes.arrayOf(PropTypes.object),
+  title: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  url: PropTypes.string,
+  imageUrl: PropTypes.string,
 }
 
 export default Seo

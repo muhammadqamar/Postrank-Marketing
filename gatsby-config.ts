@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://postrank-marketing.netlify.app`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
     {
