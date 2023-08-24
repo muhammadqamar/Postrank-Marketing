@@ -79,7 +79,7 @@ const OtherFeatures = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-full py-[72px] px-[54px] bg-Blue-50 rounded-[25px] mb-8">
+          <div className="w-full py-[32px] sm:py-[72px] px-[29px] sm:px-[54px] bg-Blue-50 rounded-[25px] mb-8">
             <div className="p-5 bg-white rounded-[20px]">
               <TextTag
                 as="p"
