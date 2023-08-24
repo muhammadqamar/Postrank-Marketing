@@ -49,7 +49,7 @@ function Seo({ description, lang, meta, title, type, url, imageUrl, keyword }) {
         },
         {
           name: `description`,
-          content: metaDescription,
+          content: "Marketing website",
         },
         {
           property: `og:title`,
@@ -61,7 +61,7 @@ function Seo({ description, lang, meta, title, type, url, imageUrl, keyword }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: "Marketing website",
         },
         {
           property: `og:type`,
@@ -88,7 +88,7 @@ function Seo({ description, lang, meta, title, type, url, imageUrl, keyword }) {
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: "Marketing website",
         },
       ].concat(meta)}
     />
