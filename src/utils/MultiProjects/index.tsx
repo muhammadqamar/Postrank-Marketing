@@ -4,16 +4,10 @@ import NewProject from "../../assets/images/icons/new-create.svg"
 import AddIcon from "../../assets/images/icons/add.svg"
 import RightIcon from "../../assets/images/icons/forward.svg"
 
-const Index = ({
-  className,
-  companeyLogo,
-  companeyName,
-  folderNum,
-  AddNewProject,
-}) => {
+const Index = ({ companeyLogo, companeyName, folderNum, AddNewProject }) => {
   return (
     <div
-      className={`w-full flex flex-wrap items-center justify-between gap-7 p-4 bg-white rounded-2xl cursor-pointer ${className}`}
+      className={`w-full xl:!w-[249px] flex-nowrap flex items-center justify-between gap-7 p-4 bg-white rounded-2xl cursor-pointer`}
     >
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-full overflow-hidden">
