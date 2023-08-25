@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://postrank-marketing.netlify.app`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
     {
@@ -53,7 +54,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/icons/postrank-logo.svg`, // This path is relative to the root of the site.
       },
     },
   ],
