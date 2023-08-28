@@ -23,7 +23,7 @@ const HowItWork = () => {
         as="h3"
         text="How it works?"
         color="text-black"
-        className="sm:h3 h4 !leading-[48px] mb-10 md:mb-16 md:text-center text-start"
+        className="h3 mb-10 md:mb-16 md:text-center text-start"
       />
 
       <div className="w-full flex items-center justify-between gap-8 flex-wrap">

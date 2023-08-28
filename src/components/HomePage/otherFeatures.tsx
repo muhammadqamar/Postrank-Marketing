@@ -18,7 +18,7 @@ const OtherFeatures = () => {
         as="h3"
         text="Other features"
         color="text-black"
-        className="sm:h3 h4 mb-10 md:mb-16 text-start md:text-center"
+        className="h3 mb-10 md:mb-16 text-start md:text-center"
       />
 
       <div className="w-full flex items-center xl:flex-nowrap flex-wrap gap-[56px] md:gap-6 justify-between ">
@@ -79,7 +79,7 @@ const OtherFeatures = () => {
         </div>
 
         <div className="w-full">
-          <div className="w-full py-[32px] sm:py-[72px] px-[29px] sm:px-[54px] bg-Blue-50 rounded-[25px] mb-8">
+          <div className="w-full py-[32px] md:py-[72px] px-[29px] md:px-[54px] bg-Blue-50 rounded-[25px] mb-8">
             <div className="p-5 bg-white rounded-[20px]">
               <TextTag
                 as="p"
@@ -93,7 +93,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Digital Nomad"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -104,7 +104,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Visa"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -115,7 +115,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Country"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -126,7 +126,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"List"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -137,7 +137,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Popular"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -148,7 +148,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Essentials"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -159,7 +159,7 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Travel"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
@@ -170,21 +170,21 @@ const OtherFeatures = () => {
                   <TextTag
                     as="p"
                     text={"Explore"}
-                    className={"p-medium !font-medium"}
+                    className={"p-medium1 !text-[14px] !leading-[18px]"}
                     color={"text-Blue-700"}
                   />
                   <button className="cursor-pointer" onClick={() => {}}>
                     <img src={CloseIcon} alt="close icon" />
                   </button>
                 </div>
-                <button className="py-[7px] px-3 text-Blue-500 p-medium font-medium">
+                <button className="py-[7px] px-3 text-Blue-500 p-medium1 !text-[14px] !leading-[18px]">
                   Manage Tags
                 </button>
               </div>
             </div>
           </div>
           <div className="flex items-start md:items-center flex-col md:flex-row gap-6">
-            <div className="w-[88px] h-auto  flex items-center justify-between border border-solid border-Blue-500 px-[30px]  py-[14px] rounded-full">
+            <div className="w-[88px] h-auto  flex items-center justify-between border border-solid border-Blue-500 px-[30px] py-[14px] rounded-full">
               <img
                 src={Label}
                 alt="Category"

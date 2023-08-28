@@ -13,7 +13,7 @@ const ComparePost = () => {
   return (
     <div className="w-full margin-y flex lg:flex-nowrap gap-[41px] md:gap-[120px] flex-wrap items-center">
       <div className="flex relative max-w-[590px] w-full">
-        <div className="flex flex-col gap-5 w-full md:w-auto">
+        <div className="flex flex-col sm:gap-5 gap-[11.12px] w-full sm:w-auto">
           <Card
             className=""
             backgroundImage={GirlImg}
@@ -28,35 +28,33 @@ const ComparePost = () => {
             increaseIcon={IncreaseIcon}
           />
           <Trading
-            className={
-              "bg-Blue-50 md:p-4 p-3 md:!max-w-[234px] sm:max-w-[160px] xsm:max-w-[130px] max-w-[110px]"
-            }
+            className={"bg-Blue-50 sm:p-4 p-3 md:max-w-[230px] max-w-[130px] "}
             trendLabel={"Average time on page"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
             trendNumbers={"2m 47s"}
             trendMarkup={"12.5%"}
             trendMarkupColor={"text-Green-500"}
-            increaseIconStyle={"text-Blue-200"}
+            increaseIconStyle={"text-Blue-200 md:h-full h-[10px]"}
             IncreaseIcon={IncreaseIcon}
           />
         </div>
-        <div className="flex flex-col items-end gap-5 !z-1 absolute left-[100px] xsm:left-[150px] sm:left-[160px] md:left-[254px]">
+        <div className="flex flex-col items-end md:gap-5 gap-[11.12px] !z-1 absolute md:left-[249px] left-[138.12px]">
           <Trading
-            className={
-              "bg-Blue-50 md:p-4 p-3 md:!max-w-[234px] sm:max-w-[160px] xsm:max-w-[130px] max-w-[110px]"
-            }
+            className={"bg-Blue-50 md:p-4 p-3 md:max-w-[230px] max-w-[118px]"}
             trendLabel={"New users"}
             trendLabelColor={"text-Grey-700"}
             trendNumbersColor={"text-Black"}
             trendNumbers={"618"}
             trendMarkup={"-4.2%"}
             trendMarkupColor={"text-Red-500"}
-            increaseIconStyle={"text-Blue-200 transform rotate-180"}
+            increaseIconStyle={
+              "text-Blue-200 transform rotate-180 md:h-full h-[10px]"
+            }
             IncreaseIcon={IncreaseIcon}
           />
           <Card
-            className="relative !w-[185px] md:!w-[372px] !h-[300px] before:absolute before:left-[-26px] before:max-w-[208px] before:w-full before:min-h-[200px] md:before:min-h-[368px] before:bg-black before:opacity-[0.34] before:blur-[32px]"
+            className="relative before:absolute before:left-[-26px] before:max-w-[208px] before:w-full before:min-h-[200px] md:before:min-h-[368px] before:bg-black before:opacity-[0.34] before:blur-[32px]"
             backgroundImage={CameraImg}
             trendIcon={TrendIcon}
             ranking={"2"}
@@ -82,7 +80,7 @@ const ComparePost = () => {
         <TextTag
           as="p"
           text="Create direct comparisons between posts to see how they stack up against each other."
-          className={"p-large sm:w-[352px] xsm:w-[327px]"}
+          className={"p-large lg:w-[352px] w-full"}
           color={"text-Grey-700"}
         />
       </div>

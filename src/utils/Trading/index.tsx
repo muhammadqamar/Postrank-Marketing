@@ -14,23 +14,21 @@ const Index = ({
 }) => {
   return (
     <div
-      className={`w-full bg-customBlue md:p-4 p-3 rounded-2xl flex flex-col justify-center ${className}`}
+      className={`w-full bg-customBlue md:p-4 p-[8.9px] rounded-2xl flex flex-col justify-center ${className}`}
     >
       <div>
         <TextTag
           as="p"
           text={trendLabel}
-          className={"p-small max-sm:text-[6.673px] max-sm:leading-[8.898px]"}
+          className={"p-small1"}
           color={trendLabelColor}
         />
       </div>
-      <div className="flex sm:gap-4 gap-[8.9px] items-center">
+      <div className="flex md:gap-4 gap-[8.9px] items-center">
         <TextTag
           as="h4"
           text={trendNumbers}
-          className={
-            "md:text-[32px] md:leading-[42px] md:tracking-[-0.48px] !font-bold text-[17.796px] leading-[23.357px] tracking-[-0.267px]"
-          }
+          className={"h4"}
           color={trendNumbersColor}
         />
         <div className="flex gap-1 items-center">
@@ -38,7 +36,7 @@ const Index = ({
           <TextTag
             as="p"
             text={trendMarkup}
-            className={"p-small"}
+            className={"p-medium1"}
             color={trendMarkupColor}
           />
         </div>

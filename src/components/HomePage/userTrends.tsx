@@ -11,30 +11,28 @@ const UserTrends = () => {
         <TextTag
           as="h3"
           text={"Cut through the noise"}
-          className={
-            "font-medium md:text-[38px] md:leading-[48px] md:tracking-[-0.72px] text-[32px] tracking-[-0.48px] mb-4 leading-[42px]"
-          }
+          className={"h3 mb-4 leading-[42px]"}
           color={"text-Black"}
         />
         <TextTag
           as="p"
           text="Pull in all your Google Analytics & Search Console data and see how specific posts perform over time."
-          className={"p-large md:w-[441px] xsm:w-[327px] w-[280px]"}
+          className={"p-large lg:w-[441px] w-full"}
           color={"text-Grey-700"}
         />
       </div>
-      <div className="max-w-full lg:max-w-[524px] w-full sm:p-8 p-[17.8px] rounded-[20px] bg-Blue-50">
+      <div className="max-w-full lg:max-w-[524px] w-full md:p-8 p-[17.8px] rounded-[20px] bg-Blue-50">
         <div className="flex justify-between items-center mb-4">
           <TextTag
             as="h5"
             text={"User trends"}
-            className={"h5 max-sm:text-[13.9px] max-sm:leading-[17.796px]"}
+            className={"h5"}
             color={"text-Black"}
           />
           <TextTag
             as="p"
             text={"30 days"}
-            className={"sm:p-medium p-xxsmall max-sm:font-medium"}
+            className={"p-medium1"}
             color={"text-[#6C6C6C]"}
           />
         </div>
