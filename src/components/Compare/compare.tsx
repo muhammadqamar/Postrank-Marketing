@@ -493,6 +493,7 @@ const Index = () => {
                 </div>
               </div>
             )}
+            {/* graph */}
             {secondPost === undefined ||
             secondPost === null ||
             secondPost?.error ? (
