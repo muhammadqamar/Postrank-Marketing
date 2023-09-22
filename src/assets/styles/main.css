@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0  box-border;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  @apply m-0 p-0;
+}
+
+body {
+  @apply text-black;
+  background-color: rgb(241, 246, 253) !important;
+}
+.common-bg-color {
+  background-color: rgb(241, 246, 253);
+}
+.blue-common {
+  color: rgb(47, 103, 221, 1);
+}
+/* dropdown style */
+.dropdown-menu {
+  @apply z-10 bg-white divide-y divide-lightGray rounded-2xl  w-44 py-2 absolute top-14 right-0 overflow-hidden;
+}
+.dropdown-item {
+  @apply flex items-center  gap-[10px] px-[10px] py-[11px] hover:bg-lightGray text-black text-[14px] leading-[18px] font-normal;
+}
+
+/* typography */
+
+/* heading */
+
+.h4 {
+  @apply text-[32px] leading-[42px] font-medium tracking-[-0.48px];
+}
+.h5 {
+  @apply text-[25px] leading-[32px] font-medium tracking-[-0.48px];
+}
+.h6 {
+  @apply text-[20px] leading-[28px] font-medium tracking-[-0.48px];
+}
+
+/*paragraphs*/
+
+.p-small {
+  @apply text-[12px] leading-[16px] font-normal tracking-[-0.2px];
+}
+
+.p-medium {
+  @apply text-[14px] leading-[18px] font-normal tracking-[-0.2px];
+}
+
+.p-large {
+  @apply text-[16px] leading-[24px] font-normal tracking-[-0.2px];
+}
+
+/* comman style */
+
+.focused {
+  @apply focus-visible:outline-1 focus-visible:outline focus-visible:outline-offset-1 focus-visible:outline-customBlue;
+}
+
+.search-input {
+  @apply w-full py-[10px] pl-3 pr-9 bg-white rounded-full border-none outline-none h-auto p-medium text-gray_600;
+}
+
+/* date picker design  */
+
+.my-custom-container .react-datepicker,
+.my-custom-container .react-datepicker .react-datepicker__month-container {
+  @apply w-full border-none rounded-none !important;
+}
+
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__header {
+  @apply w-full bg-white;
+}
+
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__month
+  .react-datepicker__day {
+  @apply w-8 h-8 rounded-lg py-[7px] font-medium text-sm !leading-[18px];
+}
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__month
+  .react-datepicker__day--selected,
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__month
+  .react-datepicker__day--range-start.react-datepicker__day--in-range,
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__month
+  .react-datepicker__day--range-end.react-datepicker__day--in-range {
+  /* @apply !bg-[#2F67DD]; */
+  background-color: #2f67dd !important;
+  color: #ffffff;
+}
+
+.my-custom-container
+  .react-datepicker
+  .react-datepicker__month-container
+  .react-datepicker__month
+  .react-datepicker__day--in-range {
+  background-color: rgb(241, 246, 253) !important;
+  color: #000000;
+}
+/* chart */
+
+.charts .highcharts-axis-title,
+.highcharts-no-tooltip,
+.highcharts-credits {
+  @apply !hidden;
+}
+.charts .highcharts-xaxis .highcharts-tick {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-xaxis .highcharts-axis-line {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-axis-labels text {
+  fill: #909090 !important;
+
+  @apply font-normal !text-[14px] leading-[18px];
+}
+.charts .highcharts-tracker-line {
+  stroke-width: 2px;
+  stroke: #2f67dd;
+}
+
+input[type="email"]:disabled {
+  color: #909090 !important;
+  background-color: #f8f8f8 !important;
+}

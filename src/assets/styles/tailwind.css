@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply m-0 p-0  box-border;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+  background: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  @apply m-0 p-0;
+}
+/* typography */
+
+/* heading */
+.h1 {
+  @apply font-medium md:text-6xl text-[42px] md:leading-[78px] leading-[56px] md:tracking-[-1.2px] tracking-[-0.96px];
+}
+.h2 {
+  @apply font-medium text-[42px] leading-[56px] tracking-[-0.72px];
+}
+.h3 {
+  @apply md:text-[38px] text-[32px] font-medium md:leading-[48px] leading-[42px] md:tracking-[-0.72px] tracking-[-0.48px];
+}
+.h4 {
+  @apply md:text-[32px] text-[17.796px] font-bold md:leading-[42px] leading-[23.357px] md:tracking-[-0.48px] tracking-[-0.267px];
+}
+.h5 {
+  @apply md:text-[25px] text-[13.903px] md:leading-[32px] leading-[17.796px] font-medium md:tracking-[-0.4px] tracking-[-0.222px];
+}
+.h6 {
+  @apply text-[20px] font-medium leading-[28px] tracking-[-0.2px];
+}
+
+/*paragraphs*/
+.p-xxsmall {
+  @apply text-[7.786px] leading-[10.01px] font-normal tracking-[0.1px];
+}
+.p-xsmall {
+  @apply text-[8.898px] leading-[11.122px] font-normal tracking-[0.1px];
+}
+.p-small {
+  @apply text-[12px] leading-[16px] font-normal tracking-[0.1px];
+}
+.p-small1 {
+  @apply md:text-[12px] text-[6.673px] md:leading-[16px] leading-[8.898px] font-normal md:tracking-[0.1px] tracking-[0.056px];
+}
+.p-medium {
+  @apply md:text-[14px] text-[12.174px] font-medium leading-normal;
+}
+.p-medium1 {
+  @apply md:text-[14px] text-[7.786px] font-medium md:leading-[18px] leading-[10.01px];
+}
+.p-large {
+  @apply text-[16px] font-normal leading-[24px] tracking-[-0.16px];
+}
+.p-large1 {
+  @apply md:text-[16px] text-[8.898px] font-normal md:leading-[20px] leading-[11.122px] md:tracking-[-0.16px] tracking-[-0.089px];
+}
+
+/* common */
+
+.margin-y {
+  @apply mb-[112px] md:mb-[164px];
+}
+
+/* chart */
+.charts {
+  @apply mt-4 bg-white;
+}
+
+.charts .highcharts-axis-title,
+.highcharts-no-tooltip,
+.highcharts-credits {
+  @apply !hidden;
+}
+.charts,
+.highcharts-root,
+.highcharts-container,
+.highcharts-background {
+  @apply !h-[358px] rounded-2xl;
+}
+.charts .highcharts-container {
+  @apply pt-5 pb-0 pr-5 pl-0;
+}
+.charts .highcharts-xaxis .highcharts-tick {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-xaxis .highcharts-axis-line {
+  stroke-width: 2px;
+  stroke: #e0e9fa;
+}
+.charts .highcharts-axis-labels text {
+  fill: #909090 !important;
+
+  @apply font-normal !text-[14px] leading-[18px];
+}
+.charts .highcharts-tracker-line {
+  stroke-width: 2px;
+  stroke: #2f67dd;
+}
