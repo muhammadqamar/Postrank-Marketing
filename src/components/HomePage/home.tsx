@@ -1,15 +1,15 @@
-import React from "react";
+import React from "react"
 
-import HeroSection from "./hero";
-import Ranking from "./ranking";
-import HowItWork from "./howItWork";
-import OtherFeatures from "./otherFeatures";
-import ComparePost from "./comparePost";
-import UserTrends from "./userTrends";
+import HeroSection from "./hero"
+import Ranking from "./ranking"
+import HowItWork from "./howItWork"
+import OtherFeatures from "./otherFeatures"
+import ComparePost from "./comparePost"
+import UserTrends from "./userTrends"
 
-import "../../assets/styles/tailwind.css";
-import Footer from "../Layout/footer";
-import PostRankLogo from "../../assets/images/postrank-logo.svg";
+import "../../assets/styles/tailwind.css"
+import Footer from "../Layout/footer"
+import PostRankLogo from "../../assets/images/postrank-logo.svg"
 
 const Home = ({ login }: any) => {
   return (
@@ -26,7 +26,7 @@ const Home = ({ login }: any) => {
       <Ranking login={login} />
       <Footer mainLogo={PostRankLogo} />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -29,6 +29,7 @@ module.exports = {
     // require("dotenv").config({
     //   path: `.env.${process.env.NODE_ENV}`,
     // })`gatsby-transformer-sharp`,
+    `gatsby-transformer-sharp`,
     // In your gatsby-config.js
 
     {

@@ -1,9 +1,9 @@
-import React from "react";
-import { TextTag } from "../../utils/Typography";
-import Button from "../../utils/Button";
+import React from "react"
+import { TextTag } from "../../utils/Typography"
+import Button from "../../utils/Button"
 
-import GoogleLogo from "../../assets/images/icons/google-logo.svg";
-import BroserImage from "../../assets/images/Browser.png";
+import GoogleLogo from "../../assets/images/icons/google-logo.svg"
+import BroserImage from "../../assets/images/Browser.png"
 
 const hero = ({ login }: any) => {
   return (
@@ -23,7 +23,7 @@ const hero = ({ login }: any) => {
           type="button"
           disabled={false}
           onClick={() => {
-            login();
+            login()
           }}
           text="Sign in with Google"
           icon={
@@ -37,7 +37,7 @@ const hero = ({ login }: any) => {
         <img src={BroserImage} alt="BroserImage" className="w-full h-auto" />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default hero;
+export default hero

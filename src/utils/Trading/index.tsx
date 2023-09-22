@@ -1,5 +1,5 @@
-import React from "react";
-import { TextTag } from "../Typography";
+import React from "react"
+import { TextTag } from "../Typography"
 
 const Index = ({
   className,
@@ -42,7 +42,7 @@ const Index = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index

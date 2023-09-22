@@ -1,9 +1,9 @@
-import * as React from "react";
-import { Link } from "gatsby";
-import Button from "../../utils/Button";
+import * as React from "react"
+import { Link } from "gatsby"
+import Button from "../../utils/Button"
 
-import GoogleLogo from "../../assets/images/icons/google-logo.svg";
-import "../../assets/styles/tailwind.css";
+import GoogleLogo from "../../assets/images/icons/google-logo.svg"
+import "../../assets/styles/tailwind.css"
 
 const Header = ({ mainLogo, activeTab, login }: any) => (
   <header className="max-w-[1280px] mx-auto px-6 md:py-6 py-[17px] flex items-center justify-between">
@@ -16,7 +16,7 @@ const Header = ({ mainLogo, activeTab, login }: any) => (
         type="button"
         disabled={false}
         onClick={() => {
-          login();
+          login()
         }}
         text="Sign in with Google"
         icon={
@@ -26,6 +26,6 @@ const Header = ({ mainLogo, activeTab, login }: any) => (
       />
     )}
   </header>
-);
+)
 
-export default Header;
+export default Header

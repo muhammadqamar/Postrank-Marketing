@@ -1,13 +1,13 @@
-import React from "react";
-import { TextTag } from "../../utils/Typography";
-import Trading from "../../utils/Trading";
-import Card from "../../utils/Card";
+import React from "react"
+import { TextTag } from "../../utils/Typography"
+import Trading from "../../utils/Trading"
+import Card from "../../utils/Card"
 
-import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg";
-import CameraImg from "../../assets/images/camera.png";
-import TrendIcon from "../../assets/images/icons/trendIcon.svg";
-import GirlImg from "../../assets/images/girlImg.png";
-import TrophyIcon from "../../assets/images/icons/trophyIcon.svg";
+import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg"
+import CameraImg from "../../assets/images/camera.png"
+import TrendIcon from "../../assets/images/icons/trendIcon.svg"
+import GirlImg from "../../assets/images/girlImg.png"
+import TrophyIcon from "../../assets/images/icons/trophyIcon.svg"
 
 const ComparePost = () => {
   return (
@@ -87,7 +87,7 @@ const ComparePost = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ComparePost;
+export default ComparePost

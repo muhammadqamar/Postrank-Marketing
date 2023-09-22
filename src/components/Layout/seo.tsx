@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
 
-import * as React from "react";
+import * as React from "react"
 
 function Seo({ description, title }: any) {
   return (
@@ -20,7 +20,7 @@ function Seo({ description, title }: any) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
     </>
-  );
+  )
 }
 
-export default Seo;
+export default Seo

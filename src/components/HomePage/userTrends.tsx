@@ -1,8 +1,8 @@
-import React from "react";
-import { TextTag } from "../../utils/Typography";
-import Trading from "../../utils/Trading";
-import Charts from "../GraphChart/chart";
-import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg";
+import React from "react"
+import { TextTag } from "../../utils/Typography"
+import Trading from "../../utils/Trading"
+import Charts from "../GraphChart/chart"
+import IncreaseIcon from "../../assets/images/icons/increaseIcon.svg"
 
 const UserTrends = () => {
   return (
@@ -63,7 +63,7 @@ const UserTrends = () => {
         <Charts />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default UserTrends;
+export default UserTrends

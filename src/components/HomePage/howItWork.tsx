@@ -1,5 +1,5 @@
-import React from "react";
-import { TextTag } from "../../utils/Typography";
+import React from "react"
+import { TextTag } from "../../utils/Typography"
 
 const workData = [
   {
@@ -14,7 +14,7 @@ const workData = [
     id: "3",
     text: "Analyze & compare your posts!",
   },
-];
+]
 
 const HowItWork = () => {
   return (
@@ -47,7 +47,7 @@ const HowItWork = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HowItWork;
+export default HowItWork

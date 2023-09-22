@@ -1,12 +1,12 @@
-import React, { MouseEventHandler } from "react";
+import React, { MouseEventHandler } from "react"
 
 interface IndexProps {
-  text: string | React.ReactNode;
-  onClick: MouseEventHandler<HTMLButtonElement> | any;
-  className?: string;
-  icon?: React.ReactNode;
-  type: "button" | "submit" | "reset" | undefined;
-  disabled?: boolean;
+  text: string | React.ReactNode
+  onClick: MouseEventHandler<HTMLButtonElement> | any
+  className?: string
+  icon?: React.ReactNode
+  type: "button" | "submit" | "reset" | undefined
+  disabled?: boolean
 }
 
 const Index: React.FC<IndexProps> = ({
@@ -27,7 +27,7 @@ const Index: React.FC<IndexProps> = ({
       {icon && <span>{icon}</span>}
       {text}
     </button>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index
